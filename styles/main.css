@@ -1,0 +1,228 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+background:rosybrown;
+}
+
+
+.main_wrapper{
+	
+	width:1000px;
+	height:auto;
+    margin:auto;
+	background:black;
+	border-left:30px solid orange;
+	border-right:30px solid orange;
+	border-style:groove;
+}
+.header_wrapper{
+	width:1000px;
+	height:200px;
+	margin:auto;
+	
+}
+#logo{
+	float:left;
+border-radius:50%;
+width:100;
+height:100;
+background-image:url("../images/pattern1.jpg");
+}
+#logo_style{
+	
+	font-size:80px;
+	text-align:center;
+	color:white;
+}
+#banner{float:right;
+height:200px;
+width:900px;
+background-image:url("../images/camera.jpg");
+background-size:cover;
+color:white;
+font-size:60px;
+}
+#shop{
+margin-top:40px;	
+	
+}
+.content_wrapper{
+    width:1000px;
+	height:auto;
+	margin:auto;
+	
+}
+#content_area{
+	width:800px;
+	
+	float:right;
+	background:antiquewhite;
+	
+}
+.sidebar{
+	
+	
+width:200px;
+	background:tomato;
+	float:left;
+}
+.sidebar_title{
+	color:white;
+	background:black;
+	font-size:22px;
+	font-family:arial;
+	padding:10px;
+	text-align:center;
+	font-weight:bolder;
+	
+}
+#cats{
+	text-align:center;
+	
+}
+#cats li{
+	list-style:none;
+	margin:5px;
+
+}
+#cats a{
+	color:white;
+      padding:8px;
+	  margin:8px;
+	  text-align:center;
+	  text-decoration:none;
+	font-size:20px;
+	font-family:COMIC SANS MS
+}
+#cats a:hover{
+	color:orange;
+	font-weight:bolder;
+	text-decoration:none;
+}
+.footer{
+	width:1000px;
+	height:100px;
+	background:grey;
+	clear:both;
+}
+.menubar{
+	width:1000px;
+	height:50px;
+	background-image:url("../images/pattern1.jpg");
+	color:white;
+	font-weight:bolder;
+}
+	
+#menu{
+	padding:0px;
+	margin:0px;
+	line-height:40px;
+	float:left;
+}
+#menu li{
+	list-style:none;
+	display:inline;
+}
+#menu a {
+	text-decoration:none;
+	color:white;
+	padding:8px;
+	margin:5px;
+	font-size:18px;
+	font-family:COMIC SANS MS;
+}
+#menu a:hover{
+	color:orange;
+font-weight:bolder;
+text-decoration:underline;}
+#cartdetail{
+	margin-rigth:20px;
+	width:800px;
+	background:olive;
+}
+#form{
+	float:right;
+padding-right:8px;
+line-height:50px;}
+
+#products_box{
+	width:780px;
+	text-align:center;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+
+
+#single_product{float:left;margin-left:20px;padding:10px;}
+#single_product img{border:2px solid black;}
+
+#shopping_cart{width:800px; height:75px;border-bottom:2px solid floralwhite;border-top:2px solid floralwhite;  background:sienna; color:white; font-size:45px;}
+
+#login_table{
+margin-top:50px;
+	margin-left:200px;
+	border:3px solid olive;
+	border-radius:5%;
+	
+	
+}
+#login_write{
+	font-size:30px;
+	color:green;
+
+}
+#login{
+background:olive;
+color:white;
+height:30px;
+width:120px;
+border:3px solid white;	
+border-radius:20%;
+border-style:groove;
+	 box-shadow: 5px 5px 2.5px grey;
+}
+#login_image{
+	background:antiquewhite;
+	height:400;
+	width:800;
+}
+button{
+	background:goldenrod;
+	color:white;
+border:3px solid white;	
+border-radius:20%;
+border-style:groove;
+	 box-shadow: 5px 5px 2.5px grey;
+	font-weight:bolder;
+}
+#label{
+text-align:center;
+margin-right:40px;	
+	color:saddlebrown;
+	font-size:20px;
+	line-height:40px;
+}
